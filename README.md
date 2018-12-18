@@ -4,7 +4,7 @@
 とほほのJavaScriptリファレンス
 
 # OutSystemsに関する
-[Highcharts API Reference](https://api.highcharts.com/highcharts/labels.style)  	
+[Highcharts API Reference](https://api.highcharts.com/highcharts/labels.style)    	
 内容が多すぎて、ざっと見てから、コードを触りながら、APIを確認したほうがよいと思う	
 	
 [Highcharts Demo](https://www.highcharts.com/demo)    
