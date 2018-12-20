@@ -12,3 +12,5 @@
 	
 [Highcharts Forums](https://www.outsystems.com/forums/25/technology-integration/)     
 はまったところがあれば、ここに質問して、すぐ回答してくれる人がいる	
+
+[BASIC認証](https://github.com/wangzhijin/memo/blob/master/txt)
