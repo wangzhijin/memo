@@ -1,2 +1,30 @@
-メモ
-
+# BASIC認証
+１．ベーシック認証ファイル作成			
+※参照：http://www.chama.ne.jp/access/index.htm			
+┣.htaccess			
+AuthUserFile /var/www/html/.htpasswd			
+AuthName "Input ID and Password."			
+AuthType Basic			
+require valid-user			
+<Files ~ "^.(htpasswd|htaccess)$">			
+    deny from all			
+</Files>			
+			
+┣.htpasswd			
+			
+２．Conf修正			
+ /etc/apache2/apache2.conf			
+			
+<Directory /var/www/>			
+   (省略)			
+   AllowOverride None			⇒AllowOverride All
+   (省略)			
+</Directory>			
+			
+３．apacheの再起動			
+sudo service apache2 restart			
+			
+			
+			
+参照			
+https://qiita.com/mebae/items/5e74905a5c20586b05bb
