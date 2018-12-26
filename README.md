@@ -3,6 +3,9 @@
 [JavaScriptエスケープ文字](http://www.tohoho-web.com/js/string.htm)  
 とほほのJavaScriptリファレンス
 
+# Solidity勉強サイト  
+https://cryptozombies.io/jp/   
+
 # OutSystemsに関する
 [Highcharts API Reference](https://api.highcharts.com/highcharts/labels.style)     
 内容が多すぎて、ざっと見てから、コードを触りながら、APIを確認したほうがよいと思う	
