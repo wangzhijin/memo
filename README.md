@@ -3,7 +3,7 @@
 [JavaScriptエスケープ文字](http://www.tohoho-web.com/js/string.htm)  
 とほほのJavaScriptリファレンス
 
-# Solidity勉強サイト  
+# Solidity勉強   
 https://cryptozombies.io/jp/   
 
 # OutSystemsに関する
