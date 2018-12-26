@@ -1,4 +1,4 @@
-#ポート公開
+#####ポート公開########
 状態確認
 $ sudo iptables -L
 ポート公開
@@ -18,3 +18,11 @@ exit 0
 $ sudo chmod a+x /etc/network/if-pre-up.d/iptables_start
 再起動する
 $ reboot
+
+#####IPアドレスアクセス制限#####
+# vi /etc/hosts.deny
+ALL: ALL	⇒すべて拒否に設定
+# vi /etc/hosts.allow
+ALL: 192.168.0.10,153.1.14.10,azurewebsites.net ⇒アクセス可のアドレスを設定
+vsftpd: 192.168.0.
+sshd: 192.168.0.
