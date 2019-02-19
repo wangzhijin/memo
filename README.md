@@ -29,7 +29,7 @@ sshd: 192.168.0.
 $ sudo iptables -L  
 ポート公開  
 $ sudo iptables -I INPUT -p tcp -m tcp --dport 8080 -j ACCEPT  
-root@test:~#sudo iptables -I INPUT -p tcp -m tcp --dport 8081 -j ACCEPT  
+root@test:#sudo iptables -I INPUT -p tcp -m tcp --dport 8081 -j ACCEPT  
 保存  
 $ sudo iptables-save | sudo tee /etc/iptables.rules  
 再起動する時に、ロードする  
