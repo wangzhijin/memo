@@ -23,9 +23,13 @@ ALL: ALL⇒すべて拒否に設定
 '# vi /etc/hosts.allow  
 ALL: 192.168.0.1,153.142.14.1,test.azurewebsites.net  
 vsftpd: 192.168.0.  
-sshd: 192.168.0.  
+sshd: 192.168.0.
+
 # ポート公開  
 状態確認    
+$ telnet 192.168.1.1 8081  
+$ netstat -anp  
+$ lsof -i -nP  
 $ sudo iptables -L  
 ポート公開  
 $ sudo iptables -I INPUT -p tcp -m tcp --dport 8081 -j ACCEPT  
