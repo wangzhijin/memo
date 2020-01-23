@@ -25,6 +25,12 @@ ALL: 192.168.0.1,153.142.14.1,test.azurewebsites.net
 vsftpd: 192.168.0.  
 sshd: 192.168.0.
 
+# LINUX(Ubuntu)
+# IPアドレスアクセス制限  
+Azure Functionsでは実行時間に注意が必要(https://kumachan.biz/2017/04/03_1611/4722/)  
+Timeout value of 00:05:00 was exceeded by function.  
+
+
 # ポート公開  
 状態確認    
 $ telnet 192.168.1.1 8081  
