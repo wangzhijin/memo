@@ -53,14 +53,14 @@ $ sudo chmod a+x /etc/network/if-pre-up.d/iptables_start
 再起動する  
 root@test:~#reboot  
 
-#mkcert
-yum install nss-tools
-curl -JLO "https://dl.filippo.io/mkcert/latest?for=linux/amd64"
-chmod +x mkcert-v*-linux-amd64
-cp mkcert-v*-linux-amd64 /usr/local/bin/mkcert
-cd /usr/local/bin/mkcert
-mkcert install 
-mkcert localhost
+#mkcert  
+yum install nss-tools  
+curl -JLO "https://dl.filippo.io/mkcert/latest?for=linux/amd64"  
+chmod +x mkcert-v*-linux-amd64  
+cp mkcert-v*-linux-amd64 /usr/local/bin/mkcert  
+cd /usr/local/bin/mkcert  
+mkcert install   
+mkcert localhost  
 
 # その他
 [BASIC認証](https://github.com/wangzhijin/memo/blob/master/txt)
