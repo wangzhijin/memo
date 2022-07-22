@@ -26,3 +26,12 @@ ALL: ALL	⇒すべて拒否に設定
 ALL: 192.168.0.10,153.1.14.10,azurewebsites.net ⇒アクセス可のアドレスを設定
 vsftpd: 192.168.0.
 sshd: 192.168.0.
+
+
+yum install nss-tools
+curl -JLO "https://dl.filippo.io/mkcert/latest?for=linux/amd64"
+chmod +x mkcert-v*-linux-amd64
+cp mkcert-v*-linux-amd64 /usr/local/bin/mkcert
+cd /usr/local/bin/mkcert
+mkcert install 
+mkcert localhost
